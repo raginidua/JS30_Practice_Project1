@@ -1,0 +1,28 @@
+body {
+  background-color: pink;
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/*.row1 {
+  height: 33vh;
+}
+
+.row2 {
+  height: 33vh;
+}*/
+
+.row3 {
+  height: 33vh;
+}
+
+.win {
+  color: red;
+}
