@@ -1,0 +1,116 @@
+h1 {
+  margin: 15px auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+.initialSpace {
+  height: 300px;
+  width: 300px;
+}
+
+.textDiv {
+  height: 30px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.scroll {
+  color: #66484D;
+  margin: 0;
+  padding: 0;
+}
+
+.animation {
+  color: #B27F87;
+  margin: 0;
+  padding: 0;
+}
+
+.practice {
+  color: #E5A3AD;
+  margin: 0;
+  padding: 0;
+}
+
+.toAppear {
+  opacity: 0;
+  transition: all 1.5s;
+}
+
+.alignLeft {
+  transform:translateX(-30%) scale(0.95);
+}
+
+.alignRight {
+  transform:translateX(30%) scale(0.95);
+}
+
+.activeText {
+  transform: translateX(0%) scale(1);
+  opacity: 1;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  margin: 10px auto;
+}
+
+#square1 {
+  background-color: #FFB6C1;
+}
+
+#square2 {
+  background-color: #ffcbd3;
+}
+
+#square3 {
+  background-color: #ffdae0;
+}
+
+#square4 {
+  background-color: #ffe9ec;
+  height: 50px;
+  width: 50px;
+  margin: 92px auto;
+  border: 0.75px solid black;
+}
+
+#square5 {
+  background-color: #fff0f2;
+}
+
+.square {
+  border: 3px solid black;
+  opacity: 0;
+  transition: all 1.5s;
+}
+
+.activesquare1 {
+  background-color: #fff0f2;
+  /*border-radius: 50%;*/
+  opacity: 1;
+}
+
+.activesquare2 {
+  opacity: 1;
+}
+
+.activesquare3 {
+  opacity: 1;
+  transform: rotate(360deg);
+}
+
+.activesquare4 {
+  opacity: 1;
+  transform: scale(4);
+  /*height: 200px;
+  width: 200px;*/
+}
+
+.activesquare5 {
+  opacity: 1;
+  transform: rotate(360deg);
+  border-radius: 50%;
+}
