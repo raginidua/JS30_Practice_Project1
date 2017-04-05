@@ -13,7 +13,7 @@ function start() {
 
   const points = document.getElementById('points');
 
-  const colors = ['red', 'green', 'blue', 'white', 'yellow', 'purple', 'orange', 'coral'];
+  const colors = ['red', 'green', 'blue', 'white', 'yellow', 'purple', 'orange', 'coral', 'aliceblue', 'aqua', 'aquamarine', 'blueviolet', 'crimson', 'darkcyan', 'darkmagenta', 'darkorchid', 'darkturqoise'];
 
   // row1Array.forEach(function(word, index) {
   //   setTimeout(displayWord.bind(null, word), index*1000);
